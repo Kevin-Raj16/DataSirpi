@@ -1,0 +1,12 @@
+// Users
+export const users = [
+  { id: 1, name: "Kevin" },
+  { id: 2, name: "Arun" }
+];
+
+// Products
+export const products = [
+  { id: 1, name: "Laptop", price: 50000 },
+  { id: 2, name: "Phone", price: 20000 },
+  { id: 3, name: "Headphones", price: 2000 }
+];
