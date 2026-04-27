@@ -1,0 +1,19 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+#output {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
