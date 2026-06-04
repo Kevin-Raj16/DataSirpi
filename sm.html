@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Student Management Dashboard</h1>
+
+    <div class="form-container">
+
+        <input
+            type="text"
+            id="studentName"
+            placeholder="Student Name"
+        >
+
+        <input
+            type="text"
+            id="department"
+            placeholder="Department"
+        >
+
+        <input
+            type="email"
+            id="email"
+            placeholder="Email"
+        >
+
+        <button id="addStudentBtn">
+            Add Student
+        </button>
+
+    </div>
+
+    <div class="search-container">
+
+        <input
+            type="text"
+            id="searchStudent"
+            placeholder="Search Student"
+        >
+
+    </div>
+
+    <h3 id="studentCount">
+        Total Students: 0
+    </h3>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody id="studentTableBody">
+
+        </tbody>
+
+    </table>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
